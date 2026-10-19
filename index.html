@@ -1021,7 +1021,7 @@
    · 句子走「地道口语 / 俚语」路线，中文为口语意译
    ===================================================================== */
 const SCENES = [
-  { id:"greetings", name:"问候寒暄", en:"Greetings", emoji:"👋", level:1, img:"images/scene-greetings.png",
+  { id:"greetings", name:"问候寒暄", en:"Greetings", emoji:"👋", level:1, img:"scene-greetings.png",
     story:"出门遇到熟人，从打招呼到闲聊再到道别，一场轻松的街头寒暄。",
     sentences:[
       { emoji:"👋", en:"Hey there! Long time no see!", role:"me",           zh:"嘿！好久不见啦！" },
@@ -1033,7 +1033,7 @@ const SCENES = [
       { emoji:"☕", en:"Gotta run. Let's catch up over coffee sometime!", role:"me", zh:"我得先走啦，改天一起喝杯咖啡聊聊！" },
       { emoji:"👋", en:"Sounds good. Take care!", role:"me",                zh:"好啊，你多保重！" }
     ]},
-  { id:"restaurant", name:"餐厅点餐", en:"Restaurant", emoji:"🍜", level:2, img:"images/scene-restaurant.png",
+  { id:"restaurant", name:"餐厅点餐", en:"Restaurant", emoji:"🍜", level:2, img:"scene-restaurant.png",
     story:"和朋友进餐厅吃饭，从等位、点菜、提要求一直到最后结账。",
     sentences:[
       { emoji:"🚶", en:"Table for two, please. We didn't book.", role:"me",           zh:"两位，我们没订位。" },
@@ -1048,7 +1048,7 @@ const SCENES = [
       { emoji:"💳", en:"I'll get the bill. You can treat me next time.", role:"me",   zh:"这顿我请，下次你请我。" },
       { emoji:"🙏", en:"Great choice. I'll get the bill for you now.", role:"you", zh:"好眼光，我这就给您结账。" },
     ]},
-  { id:"shopping", name:"购物", en:"Shopping", emoji:"🛍️", level:2, img:"images/scene-shopping.png",
+  { id:"shopping", name:"购物", en:"Shopping", emoji:"🛍️", level:2, img:"scene-shopping.png",
     story:"逛街看到一件喜欢的衣服，试穿、问价、砍价到最后买单。",
     sentences:[
       { emoji:"👀", en:"I'm just browsing, thanks.", role:"me",          zh:"我就随便看看，谢谢。" },
@@ -1063,7 +1063,7 @@ const SCENES = [
       { emoji:"💳", en:"Alright, I'll take it. Card okay?", role:"me",    zh:"行吧，这个我要了。刷卡可以吗？" },
       { emoji:"💳", en:"Of course. That comes to sixty-five, please.", role:"you", zh:"当然可以，一共六十五。" },
     ]},
-  { id:"directions", name:"问路", en:"Asking Directions", emoji:"🧭", level:3, img:"images/scene-directions.png",
+  { id:"directions", name:"问路", en:"Asking Directions", emoji:"🧭", level:3, img:"scene-directions.png",
     story:"在陌生街头找不到地铁站，向路人问路、确认方向、最后道谢。",
     sentences:[
       { emoji:"🙋", en:"Sorry to bother you — I'm a bit lost.", role:"me",     zh:"不好意思打扰一下，我有点迷路了。" },
@@ -1075,7 +1075,7 @@ const SCENES = [
       { emoji:"🚌", en:"Would it be faster to hop on a bus?", role:"me",        zh:"坐公交会不会快点？" },
       { emoji:"🙏", en:"You're a lifesaver. Thanks a bunch!", role:"me",        zh:"你真是帮我大忙了，太感谢啦！" }
     ]},
-  { id:"airport", name:"机场乘机", en:"Airport", emoji:"✈️", level:3, img:"images/scene-airport.png",
+  { id:"airport", name:"机场乘机", en:"Airport", emoji:"✈️", level:3, img:"scene-airport.png",
     story:"机场值机、托运行李、过安检、找登机口，一路顺利登机。",
     sentences:[
       { emoji:"🎫", en:"Hi, I'm checking in for the flight to Tokyo.", role:"me", zh:"你好，我办一下去东京的值机。" },
@@ -1090,7 +1090,7 @@ const SCENES = [
       { emoji:"🛫", en:"Gate 32, boarding at three forty.", role:"you", zh:"32 号登机口，三点四十登机。" },
       { emoji:"🛫", en:"Perfect, I've got plenty of time. Cheers!", role:"me",    zh:"太好了，时间还挺宽裕。谢啦！" }
     ]},
-  { id:"hotel", name:"酒店入住", en:"Hotel", emoji:"🏨", level:3, img:"images/scene-hotel.png",
+  { id:"hotel", name:"酒店入住", en:"Hotel", emoji:"🏨", level:3, img:"scene-hotel.png",
     story:"到酒店办入住，问早餐、WiFi、叫醒服务，最后退房。",
     sentences:[
       { emoji:"🔑", en:"Hi, I've got a booking under the name Li.", role:"me",  zh:"你好，我用李的名字订了房。" },
@@ -1105,7 +1105,7 @@ const SCENES = [
       { emoji:"🧾", en:"I'm checking out now. Thanks for everything!", role:"me", zh:"我现在退房了。谢谢你们的照顾！" },
       { emoji:"🙏", en:"Thank you for staying with us. Hope to see you again!", role:"you", zh:"感谢入住，期待您再来！" },
     ]},
-  { id:"phone", name:"打电话", en:"Phone Call", emoji:"📞", level:4, img:"images/scene-phone.png",
+  { id:"phone", name:"打电话", en:"Phone Call", emoji:"📞", level:4, img:"scene-phone.png",
     story:"打电话找同事，对方不在，留言、约回电、最后挂断。",
     sentences:[
       { emoji:"📞", en:"Hi, is Mike around?", role:"me",                        zh:"你好，Mike在吗？" },
@@ -1117,7 +1117,7 @@ const SCENES = [
       { emoji:"📶", en:"Sorry, you're breaking up a bit.", role:"you",           zh:"不好意思，你那边信号有点断。" },
       { emoji:"🔋", en:"My battery's about to die. Catch you later!", role:"me", zh:"我手机快没电了，回头再聊！" }
     ]},
-  { id:"doctor", name:"看病就医", en:"At the Doctor", emoji:"🩺", level:4, img:"images/scene-doctor.png",
+  { id:"doctor", name:"看病就医", en:"At the Doctor", emoji:"🩺", level:4, img:"scene-doctor.png",
     story:"身体不舒服去看医生，描述症状、接受检查、拿药、遵医嘱。",
     sentences:[
       { emoji:"😷", en:"I've been feeling under the weather.", role:"me",          zh:"我这两天有点不舒服。" },
@@ -1129,7 +1129,7 @@ const SCENES = [
       { emoji:"📋", en:"Twice a day, and take it easy for a few days.", role:"you",  zh:"一天两次，这几天多休息。" },
       { emoji:"🙏", en:"Will do. Thanks, doc!", role:"me",                          zh:"好的，谢谢医生！" }
     ]},
-  { id:"work", name:"职场交流", en:"At Work", emoji:"💼", level:4, img:"images/scene-work.png",
+  { id:"work", name:"职场交流", en:"At Work", emoji:"💼", level:4, img:"scene-work.png",
     story:"上班迟到、汇报进度、遇到难题求助、争取延期、最后收尾。",
     sentences:[
       { emoji:"🙇", en:"Sorry I'm late — the traffic was a nightmare.", role:"me",  zh:"抱歉迟到了，路上堵得离谱。" },
@@ -1141,7 +1141,7 @@ const SCENES = [
       { emoji:"🗣️", en:"I'll walk everyone through it in the meeting.", role:"me",  zh:"会上我给大家过一遍。" },
       { emoji:"🎉", en:"Nice work, team. Let's call it a day!", role:"me",          zh:"大家辛苦啦，今天就到这儿吧！" }
     ]},
-  { id:"travel", name:"旅行交流", en:"Travel Talk", emoji:"🌏", level:5, img:"images/scene-travel.png",
+  { id:"travel", name:"旅行交流", en:"Travel Talk", emoji:"🌏", level:5, img:"scene-travel.png",
     story:"旅途里和当地人聊天，问景点、拍照、找吃的、聊天气，依依不舍告别。",
     sentences:[
       { emoji:"📸", en:"Mind taking a pic of us?", role:"me",                     zh:"能帮我们拍张照吗？" },
@@ -1156,7 +1156,7 @@ const SCENES = [
       { emoji:"🐢", en:"Could you slow down a bit? My English is rusty.", role:"me", zh:"能说慢点吗？我英语有点生疏了。" },
       { emoji:"🧳", en:"I've had a blast here. Thanks for showing me around!", role:"me", zh:"我在这儿玩得超开心，谢谢你带我逛！" }
     ]},
-  { id:"interview", name:"面试自我介绍", en:"Job Interview", emoji:"💼", level:4, img:"images/scene-interview.png",
+  { id:"interview", name:"面试自我介绍", en:"Job Interview", emoji:"💼", level:4, img:"scene-interview.png",
     story:"走进面试间，从自我介绍、聊经历、谈优势到礼貌收尾，走完一场完整面试。",
     sentences:[
       { emoji:"🤝", en:"Hi, I'm Lily. Thanks so much for having me.", role:"me",   zh:"你好，我是莉莉。非常感谢你们给我这个机会。" },
@@ -1171,7 +1171,7 @@ const SCENES = [
       { emoji:"📅", en:"We'll get back to you by the end of the week.", role:"you", zh:"我们这周末之前会给你回复。" },
       { emoji:"🙏", en:"Great, thanks again. I look forward to hearing from you!", role:"me", zh:"好的，再次感谢！期待你们的好消息！" }
     ]},
-  { id:"firstday", name:"入职第一天", en:"First Day at Work", emoji:"🏢", level:3, img:"images/scene-firstday.png",
+  { id:"firstday", name:"入职第一天", en:"First Day at Work", emoji:"🏢", level:3, img:"scene-firstday.png",
     story:"报到领工牌，认识同事，熟悉环境，第一天顺利收尾。",
     sentences:[
       { emoji:"🌞", en:"Morning! I'm here for my first day.", role:"me",            zh:"早上好！今天是我第一天来上班。" },
@@ -1186,7 +1186,7 @@ const SCENES = [
       { emoji:"💬", en:"Feel free to ping me if anything comes up.", role:"me",      zh:"有事随时喊我就行。" },
       { emoji:"🎉", en:"Day one done and dusted! See you all tomorrow.", role:"me", zh:"第一天顺利搞定！明天见啦。" }
     ]},
-  { id:"meeting", name:"开会发言", en:"Team Meeting", emoji:"🗣️", level:4, img:"images/scene-meeting.png",
+  { id:"meeting", name:"开会发言", en:"Team Meeting", emoji:"🗣️", level:4, img:"scene-meeting.png",
     story:"例会上发言：先表态、说观点、回应问题、争取支持，最后收尾。",
     sentences:[
       { emoji:"🙋", en:"Mind if I jump in here?", role:"me",                        zh:"我可以插一句吗？" },
@@ -1201,7 +1201,7 @@ const SCENES = [
       { emoji:"✅", en:"Sounds like we're on the same page then.", role:"me",       zh:"听起来大家想法一致了。" },
       { emoji:"📋", en:"I'll send out the minutes after the meeting.", role:"me",   zh:"会后我把会议纪要发给大家。" }
     ]},
-  { id:"report", name:"汇报工作", en:"Reporting Progress", emoji:"📊", level:4, img:"images/scene-report.png",
+  { id:"report", name:"汇报工作", en:"Reporting Progress", emoji:"📊", level:4, img:"scene-report.png",
     story:"向老板汇报进度：讲成果、提问题、给方案、要反馈。",
     sentences:[
       { emoji:"👋", en:"Got a minute? I'd like to run something by you.", role:"me", zh:"有空吗？我想跟你过一下进展。" },
@@ -1216,7 +1216,7 @@ const SCENES = [
       { emoji:"📝", en:"I'll keep you posted on how it goes.", role:"me",           zh:"后续进展我随时跟你汇报。" },
       { emoji:"🙏", en:"Thanks for the feedback. That really helps.", role:"me",    zh:"谢谢你的反馈，帮了大忙了。" }
     ]},
-  { id:"help", name:"请求帮助", en:"Asking for Help", emoji:"🆘", level:3, img:"images/scene-help.png",
+  { id:"help", name:"请求帮助", en:"Asking for Help", emoji:"🆘", level:3, img:"scene-help.png",
     story:"工作中卡住了：开口求助、说明问题、得到指点、表示感谢。",
     sentences:[
       { emoji:"🙋", en:"Hey, do you have a sec? I'm stuck on something.", role:"me", zh:"嘿，有空吗？我被一个事儿卡住了。" },
@@ -1228,7 +1228,7 @@ const SCENES = [
       { emoji:"🤝", en:"I really appreciate it. You saved me hours.", role:"me",    zh:"太感谢了，你帮我省了好几个小时。" },
       { emoji:"☕", en:"Coffee's on me next time!", role:"me",                      zh:"下次咖啡我请！" }
     ]},
-  { id:"leave", name:"请假", en:"Asking for Leave", emoji:"📅", level:3, img:"images/scene-leave.png",
+  { id:"leave", name:"请假", en:"Asking for Leave", emoji:"📅", level:3, img:"scene-leave.png",
     story:"需要请假：说明原因、提申请、交接工作、获得批准。",
     sentences:[
       { emoji:"😅", en:"Sorry to bother you, but I need to take a day off.", role:"me", zh:"不好意思打扰一下，我需要请一天假。" },
@@ -1243,7 +1243,7 @@ const SCENES = [
       { emoji:"💪", en:"I'll be back at full speed the day after tomorrow.", role:"me", zh:"我后天就满血复活回来上班！" },
       { emoji:"🤝", en:"Take care of yourself. See you Thursday.", role:"you", zh:"照顾好自己，周四见。" },
     ]},
-  { id:"email", name:"商务邮件沟通", en:"Email & Messages", emoji:"✉️", level:4, img:"images/scene-email.png",
+  { id:"email", name:"商务邮件沟通", en:"Email & Messages", emoji:"✉️", level:4, img:"scene-email.png",
     story:"写一封工作邮件：开头称呼、说明来意、提请求、约时间、礼貌收尾。",
     sentences:[
       { emoji:"✉️", en:"Hi Mike, hope your week's going well.", role:"me",          zh:"Mike你好，最近工作还顺利吧。" },
@@ -1258,7 +1258,7 @@ const SCENES = [
       { emoji:"📞", en:"Let's do Thursday at ten. Talk then!", role:"you", zh:"那就周四十点吧，到时聊！" },
       { emoji:"🙏", en:"Thanks in advance. Cheers, Lily.", role:"me",                zh:"先谢谢啦！莉莉敬上。" }
     ]},
-  { id:"clients", name:"接待客户", en:"Meeting Clients", emoji:"🤝", level:5, img:"images/scene-clients.png",
+  { id:"clients", name:"接待客户", en:"Meeting Clients", emoji:"🤝", level:5, img:"scene-clients.png",
     story:"接待来访客户：欢迎、寒暄、介绍公司、谈合作、送别。",
     sentences:[
       { emoji:"🚪", en:"Welcome! It's great to finally meet you in person.", role:"me", zh:"欢迎欢迎！终于见到您本人啦。" },
@@ -1270,7 +1270,7 @@ const SCENES = [
       { emoji:"💬", en:"Please, feel free to ask any questions.", role:"me",         zh:"您有任何问题尽管问。" },
       { emoji:"🚗", en:"Safe travels back! We'll be in touch soon.", role:"me",      zh:"回去一路平安！我们保持联系。" }
     ]},
-  { id:"salary", name:"谈薪资", en:"Salary Talk", emoji:"💰", level:5, img:"images/scene-salary.png",
+  { id:"salary", name:"谈薪资", en:"Salary Talk", emoji:"💰", level:5, img:"scene-salary.png",
     story:"和老板谈薪资：肯定认可、摆业绩、提期望、争取弹性、礼貌收尾。",
     sentences:[
       { emoji:"🙏", en:"Thanks for taking the time to meet with me.", role:"me",     zh:"谢谢您抽时间见我。" },
@@ -1285,7 +1285,7 @@ const SCENES = [
       { emoji:"📝", en:"I'll bring it up with HR and get back to you.", role:"you", zh:"我会跟人力资源那边提，之后回复你。" },
       { emoji:"🙏", en:"Thanks for hearing me out. Let's touch base soon.", role:"me", zh:"谢谢您听我说完，咱们尽快再碰一下。" }
     ]},
-  { id:"goodbye", name:"告别离职", en:"Saying Goodbye", emoji:"👋", level:3, img:"images/scene-goodbye.png",
+  { id:"goodbye", name:"告别离职", en:"Saying Goodbye", emoji:"👋", level:3, img:"scene-goodbye.png",
     story:"离职最后一天：告别、感谢、留联系方式、互道祝福。",
     sentences:[
       { emoji:"📦", en:"Well, today's my last day. It still feels surreal.", role:"me", zh:"唉，今天是我在这里的最后一天，感觉还挺不真实的。" },
@@ -1297,7 +1297,7 @@ const SCENES = [
       { emoji:"🤗", en:"Come visit me at the new place anytime!", role:"you",         zh:"随时来我新公司找我玩啊！" },
       { emoji:"👋", en:"Goodbye, everyone. This isn't goodbye — it's see you later.", role:"me", zh:"各位再见啦！这不是告别，是改天见！" }
     ]},
-  { id:"introduce", name:"自我介绍", en:"Introducing Yourself", emoji:"🙋", level:2, img:"images/scene-introduce.png",
+  { id:"introduce", name:"自我介绍", en:"Introducing Yourself", emoji:"🙋", level:2, img:"scene-introduce.png",
     story:"聚会上认识新朋友：打招呼、介绍自己、聊聊爱好、交换联系方式。",
     sentences:[
       { emoji:"👋", en:"Hi! I don't think we've met. I'm Lily.", role:"me",    zh:"你好！我们好像还没认识过，我叫莉莉。" },
@@ -1309,7 +1309,7 @@ const SCENES = [
       { emoji:"💬", en:"What about you? What do you do for fun?", role:"you",    zh:"你呢？平时喜欢做什么？" },
       { emoji:"📱", en:"Let's exchange numbers. It was great talking to you!", role:"me", zh:"我们交换个电话吧，跟你聊得很开心！" }
     ]},
-  { id:"plans", name:"约朋友", en:"Making Plans", emoji:"📅", level:3, img:"images/scene-plans.png",
+  { id:"plans", name:"约朋友", en:"Making Plans", emoji:"📅", level:3, img:"scene-plans.png",
     story:"约朋友周末出去玩：提想法、定时间、选地点、最终确认。",
     sentences:[
       { emoji:"💡", en:"Hey, are you free this weekend?", role:"me",            zh:"嘿，你这周末有空吗？" },
@@ -1321,7 +1321,7 @@ const SCENES = [
       { emoji:"✅", en:"Sure, no problem. Three thirty then.", role:"you",        zh:"当然没问题，那就三点半。" },
       { emoji:"👍", en:"Perfect! See you on Saturday. Don't be late!", role:"me", zh:"太好了！周六见，别迟到哦！" }
     ]},
-  { id:"smalltalk", name:"聊天气", en:"Small Talk", emoji:"☀️", level:2, img:"images/scene-smalltalk.png",
+  { id:"smalltalk", name:"聊天气", en:"Small Talk", emoji:"☀️", level:2, img:"scene-smalltalk.png",
     story:"公园遇到邻居，从天气聊起，聊感受、聊周末计划，轻松收尾。",
     sentences:[
       { emoji:"☀️", en:"Beautiful day today, isn't it?", role:"me",             zh:"今天天气真好，是吧？" },
@@ -1333,7 +1333,7 @@ const SCENES = [
       { emoji:"🌞", en:"Hope the weekend will be nice and sunny too.", role:"you", zh:"希望周末也能这么晴朗。" },
       { emoji:"👋", en:"Anyway, enjoy the sunshine! See you around.", role:"me",  zh:"好啦，好好享受阳光！回头见。" }
     ]},
-  { id:"thanks", name:"表达感谢", en:"Saying Thanks", emoji:"🙏", level:2, img:"images/scene-thanks.png",
+  { id:"thanks", name:"表达感谢", en:"Saying Thanks", emoji:"🙏", level:2, img:"scene-thanks.png",
     story:"朋友帮了大忙：道谢、说明帮助有多大、想回报、友情升温。",
     sentences:[
       { emoji:"🙏", en:"Thank you so much for your help!", role:"me",           zh:"真是太谢谢你的帮忙了！" },
@@ -1345,7 +1345,7 @@ const SCENES = [
       { emoji:"📞", en:"If you ever need anything, just ask.", role:"you",        zh:"你以后有什么需要，尽管开口。" },
       { emoji:"❤️", en:"Thanks again. You made my day!", role:"me",              zh:"再次感谢！你让我今天特别开心！" }
     ]},
-  { id:"apology", name:"道歉", en:"Apologizing", emoji:"😔", level:3, img:"images/scene-apology.png",
+  { id:"apology", name:"道歉", en:"Apologizing", emoji:"😔", level:3, img:"scene-apology.png",
     story:"不小心犯错：真诚道歉、解释原因、提出弥补、获得原谅。",
     sentences:[
       { emoji:"😔", en:"I'm really sorry about yesterday.", role:"me",           zh:"昨天的事真的很抱歉。" },
@@ -1357,7 +1357,7 @@ const SCENES = [
       { emoji:"😊", en:"It's okay. Just don't let it happen again.", role:"you",   zh:"没事啦，下次别这样就行。" },
       { emoji:"🤗", en:"Thank you for understanding. I owe you one.", role:"me",  zh:"谢谢你的体谅，我欠你一次。" }
     ]},
-  { id:"refuse", name:"礼貌拒绝", en:"Saying No Politely", emoji:"🙅", level:4, img:"images/scene-refuse.png",
+  { id:"refuse", name:"礼貌拒绝", en:"Saying No Politely", emoji:"🙅", level:4, img:"scene-refuse.png",
     story:"被邀请但去不了：先谢过、说明原因、表达遗憾、另约时间。",
     sentences:[
       { emoji:"🙏", en:"Thanks for the invite!", role:"me",                      zh:"谢谢你邀请我！" },
@@ -1376,7 +1376,7 @@ const SCENES = [
     /* ============ 2025 扩展：14 个新场景（module: life/work/social/emergency） ============ */
     /* 每个场景 = 一段 8 句、有来有回的双人对话：role:"you" 对方说，role:"me" 你说 */
 
-    { id:"life_1", name:"就医买药", en:"Medical Visit", emoji:"🏥", level:2, module:"life", img:"images/scene-life_1.png",
+    { id:"life_1", name:"就医买药", en:"Medical Visit", emoji:"🏥", level:2, module:"life", img:"scene-life_1.png",
       story:"夜里起烧，先在前台问诊、被安排给医生；医生问清症状开了药，最后在药店确认用法，才安心回家。",
       sentences:[
         { role:"you", en:"Good morning. What brings you in today?",     zh:"早上好，今天哪里不舒服？",       tip:"What brings you in 是英美诊所的标准问法" },
@@ -1389,7 +1389,7 @@ const SCENES = [
         { role:"me",  en:"How often should I take it, and any side effects?", zh:"多久吃一次？有副作用吗？",   tip:"两个问题并一句，口语常用 and 连接" }
       ]},
 
-    { id:"life_2", name:"租房搬家", en:"Renting a Place", emoji:"🏠", level:2, module:"life", img:"images/scene-life_2.png",
+    { id:"life_2", name:"租房搬家", en:"Renting a Place", emoji:"🏠", level:2, module:"life", img:"scene-life_2.png",
       story:"跟着中介看房，先问租金和账单，再谈合同年限；拿到钥匙后暖气出问题，打电话找房东派人来修。",
       sentences:[
         { role:"you", en:"So this is the living room. What do you think?", zh:"这就是客厅，你觉得怎么样？",   tip:"中介带看房的标准开场" },
@@ -1402,7 +1402,7 @@ const SCENES = [
         { role:"me",  en:"Could you send someone to fix it this week?", zh:"这周能派人来修吗？",             tip:"send someone to fix 报修万能句" }
       ]},
 
-    { id:"life_3", name:"交通出行", en:"Getting Around", emoji:"🚗", level:2, module:"life", img:"images/scene-life_3.png",
+    { id:"life_3", name:"交通出行", en:"Getting Around", emoji:"🚗", level:2, module:"life", img:"scene-life_3.png",
       story:"打车去市区，路上问司机路线；下车后改坐地铁，买票、问站台，最后到租车行确认还车要加满油。",
       sentences:[
         { role:"me",  en:"Could you take me to this address?",          zh:"请带我到这个地址。",             tip:"上车先递地址，用 take me to" },
@@ -1415,7 +1415,7 @@ const SCENES = [
         { role:"me",  en:"Thanks! One more thing — do I need a full tank when I return the car?", zh:"谢谢！还有，还车要加满油吗？", tip:"One more thing 追加问题" }
       ]},
 
-    { id:"life_4", name:"退换货投诉", en:"Returns & Complaints", emoji:"🛒", level:2, module:"life", img:"images/scene-life_4.png",
+    { id:"life_4", name:"退换货投诉", en:"Returns & Complaints", emoji:"🛒", level:2, module:"life", img:"scene-life_4.png",
       story:"拿着有瑕疵的衬衫回店里退货，说明问题、出示小票；店员只肯换货，你争取到退款，还问清到账时间。",
       sentences:[
         { role:"you", en:"Hi, how can I help you today?",               zh:"你好，需要什么帮助？",           tip:"店员迎客标准句" },
@@ -1428,7 +1428,7 @@ const SCENES = [
         { role:"me",  en:"Then could I speak to your manager?",         zh:"那我能和你们经理谈谈吗？",       tip:"要求升级的礼貌说法" }
       ]},
 
-    { id:"life_5", name:"电信网络", en:"Phone & Internet", emoji:"📱", level:3, module:"life", img:"images/scene-life_5.png",
+    { id:"life_5", name:"电信网络", en:"Phone & Internet", emoji:"📱", level:3, module:"life", img:"scene-life_5.png",
       story:"刚落地就进店办本地卡，问清流量和充值；回家发现网总断，打客服电话查线路，最后决定换个套餐。",
       sentences:[
         { role:"me",  en:"Hi, I'd like to get a local SIM card.",       zh:"你好，我想办张本地电话卡。",     tip:"SIM 逐个字母读 S-I-M" },
@@ -1441,7 +1441,7 @@ const SCENES = [
         { role:"me",  en:"If it doesn't improve, I'd like to cancel my plan.", zh:"要是没改善，我想取消套餐。", tip:"If it doesn't improve 设条件再提要求" }
       ]},
 
-    { id:"work_1", name:"求职面试", en:"Job Interview", emoji:"💼", level:3, module:"work", img:"images/scene-work_1.png",
+    { id:"work_1", name:"求职面试", en:"Job Interview", emoji:"💼", level:3, module:"work", img:"scene-work_1.png",
       story:"面试官从自我介绍问到优势，你答完顺势问薪资；谈完待遇再问日常工作，最后确认什么时候出结果。",
       sentences:[
         { role:"you", en:"Thanks for coming in. Tell me about yourself.", zh:"谢谢你来。简单介绍下自己。",   tip:"面试固定开场，别背简历逐条念" },
@@ -1454,7 +1454,7 @@ const SCENES = [
         { role:"me",  en:"And when can I expect to hear back?",         zh:"大概什么时候能收到答复？",       tip:"hear back 等待回复" }
       ]},
 
-    { id:"work_2", name:"电话视频会议", en:"Calls & Meetings", emoji:"📞", level:3, module:"work", img:"images/scene-work_2.png",
+    { id:"work_2", name:"电话视频会议", en:"Calls & Meetings", emoji:"📞", level:3, module:"work", img:"scene-work_2.png",
       story:"视频会刚开场就有人静音，你提醒并确认声音；中途对方卡顿，你请人共享屏幕；最后你复述结论、认领纪要。",
       sentences:[
         { role:"you", en:"Can everyone hear me okay?",                  zh:"大家能听清我说话吗？",           tip:"开场确认音质" },
@@ -1467,7 +1467,7 @@ const SCENES = [
         { role:"me",  en:"To sum up, we'll go with B. I'll take the minutes.", zh:"总结一下，我们选 B。我来做纪要。", tip:"minutes 会议纪要，不是分钟" }
       ]},
 
-    { id:"work_3", name:"邮件即时消息", en:"Email & Chat", emoji:"✉️", level:2, module:"work", img:"images/scene-work_3.png",
+    { id:"work_3", name:"邮件即时消息", en:"Email & Chat", emoji:"✉️", level:2, module:"work", img:"scene-work_3.png",
       story:"上周的方案迟迟没回音，你发消息跟进；对方回了但说得含糊，你请她澄清；定下周五给答复，顺势把会议挪到三点。",
       sentences:[
         { role:"me",  en:"Hi Anna, just following up on my last email.", zh:"Anna 你好，跟进一下我上封邮件。", tip:"follow up on 跟进某事" },
@@ -1480,7 +1480,7 @@ const SCENES = [
         { role:"you", en:"Works for me. Thanks for the quick reply!",    zh:"可以。谢谢这么快回复！",         tip:"Works for me 我这边可以" }
       ]},
 
-    { id:"work_4", name:"同事闲聊团建", en:"Coworker Chat", emoji:"🤝", level:2, module:"work", img:"images/scene-work_4.png",
+    { id:"work_4", name:"同事闲聊团建", en:"Coworker Chat", emoji:"🤝", level:2, module:"work", img:"scene-work_4.png",
       story:"茶水间碰到同事，从周末聊到新开的餐厅；她约午饭你婉拒，晚上团建又被问一次，你还是客气推掉。",
       sentences:[
         { role:"you", en:"Morning! How was your weekend?",               zh:"早！周末过得怎么样？",           tip:"茶水间最常用开场" },
@@ -1493,7 +1493,7 @@ const SCENES = [
         { role:"me",  en:"I'll pass this time, but thanks for asking.",  zh:"这次就不去了，谢谢邀请。",       tip:"I'll pass 委婉拒绝，不伤人" }
       ]},
 
-    { id:"social_1", name:"派对聚会", en:"Party Talk", emoji:"🎉", level:2, module:"social", img:"images/scene-social_1.png",
+    { id:"social_1", name:"派对聚会", en:"Party Talk", emoji:"🎉", level:2, module:"social", img:"scene-social_1.png",
       story:"派对上你主动搭话，找到共同话题聊开了；聊起音乐越聊越投机，临走互加联系方式。",
       sentences:[
         { role:"me",  en:"I don't think we've met. I'm Lily.",            zh:"我们好像没见过，我是 Lily。",     tip:"搭讪开场，先自报名字" },
@@ -1506,7 +1506,7 @@ const SCENES = [
         { role:"me",  en:"I should get going. Let's keep in touch!",     zh:"我得走了，保持联系！",           tip:"get going 比 go 自然" }
       ]},
 
-    { id:"social_2", name:"表达观点", en:"Sharing Opinions", emoji:"💬", level:3, module:"social", img:"images/scene-social_2.png",
+    { id:"social_2", name:"表达观点", en:"Sharing Opinions", emoji:"💬", level:3, module:"social", img:"scene-social_2.png",
       story:"开会讨论方案，你先肯定对方思路，再提出不同看法；对方坚持，你换个角度给建议，最后各让一步达成一致。",
       sentences:[
         { role:"you", en:"I think we should launch next week.",          zh:"我觉得我们下周就该上线。",       tip:"I think we should 提方案" },
@@ -1519,7 +1519,7 @@ const SCENES = [
         { role:"me",  en:"Great — let's try it and see how it goes.",    zh:"太好了，那就试试看效果。",       tip:"see how it goes 走一步看一步" }
       ]},
 
-    { id:"social_3", name:"救场没听懂", en:"Lost in Conversation", emoji:"😅", level:1, module:"social", img:"images/scene-social_3.png",
+    { id:"social_3", name:"救场没听懂", en:"Lost in Conversation", emoji:"😅", level:1, module:"social", img:"scene-social_3.png",
       story:"对方语速太快你没跟上，先请她重复、再请她放慢；有个词不懂就问意思，最后确认理解再继续聊。",
       sentences:[
         { role:"you", en:"So I was like, totally not expecting that!",   zh:"我当时就想，完全没料到！",       tip:"be like 是口语引述，别逐字翻译" },
@@ -1532,7 +1532,7 @@ const SCENES = [
         { role:"me",  en:"Perfect, I've got it now. Go on!",             zh:"懂了，我明白了。你接着说！",     tip:"I've got it 表示「我懂了」" }
       ]},
 
-    { id:"emergency_1", name:"求助报警", en:"Emergency Help", emoji:"🆘", level:2, module:"emergency", img:"images/scene-emergency_1.png",
+    { id:"emergency_1", name:"求助报警", en:"Emergency Help", emoji:"🆘", level:2, module:"emergency", img:"scene-emergency_1.png",
       story:"在街上发现护照和钱包被偷，先向巡警求助；去警局说明经过、拿回执，再问使馆地址补办证件。",
       sentences:[
         { role:"me",  en:"Excuse me, officer — I need help.",            zh:"警官，打扰一下，我需要帮助。",   tip:"Excuse me, officer 开口最稳" },
@@ -1545,7 +1545,7 @@ const SCENES = [
         { role:"me",  en:"And where's the nearest Chinese embassy?",     zh:"另外最近的中国大使馆在哪儿？",   tip:"nearest 最高级，前面要 the" }
       ]},
 
-    { id:"emergency_2", name:"海关入境", en:"Customs & Immigration", emoji:"🌍", level:2, module:"emergency", img:"images/scene-emergency_2.png",
+    { id:"emergency_2", name:"海关入境", en:"Customs & Immigration", emoji:"🌍", level:2, module:"emergency", img:"scene-emergency_2.png",
       story:"排队到边检窗口，递上护照说明来意；被问停留天数和住址，接着在海关被问有没有要申报的东西。",
       sentences:[
         { role:"you", en:"Next, please. Passport and boarding pass.",    zh:"下一位。护照和登机牌。",         tip:"递文件时对方只说名词，别慌" },
@@ -1559,7 +1559,7 @@ const SCENES = [
       ]},
 
     /* ============ 2025 第二批扩展：7 个生活场景（module: life） ============ */
-    { id:"life_6", name:"咖啡店点单", en:"Coffee Shop", emoji:"☕", level:1, module:"life", img:"images/scene-life_6.png",
+    { id:"life_6", name:"咖啡店点单", en:"Coffee Shop", emoji:"☕", level:1, module:"life", img:"scene-life_6.png",
       story:"进店点单：先问杯型和冷热，再选奶类、决定堂食还是外带；加了料、报了会员，最后顺手续杯买单。",
       sentences:[
         { role:"you", en:"Hi there! What can I get for you?",            zh:"你好！想喝点什么？",             tip:"店员固定开场，听懂后直接点单" },
@@ -1572,7 +1572,7 @@ const SCENES = [
         { role:"me",  en:"Card is fine. Thanks a lot!",                  zh:"刷卡就行。多谢！",               tip:"Card is fine 刷卡没问题" }
       ]},
 
-    { id:"life_7", name:"理发美发", en:"At the Salon", emoji:"💇", level:2, module:"life", img:"images/scene-life_7.png",
+    { id:"life_7", name:"理发美发", en:"At the Salon", emoji:"💇", level:2, module:"life", img:"scene-life_7.png",
       story:"坐下先讲清想要的发型和长度，确认价格再动手；剪到一半想修一下层次，最后烫好结账给小费。",
       sentences:[
         { role:"you", en:"So what are we doing today?",                  zh:"今天想怎么弄？",                 tip:"理发师固定开场" },
@@ -1585,7 +1585,7 @@ const SCENES = [
         { role:"me",  en:"That's great. Here's a little extra for you.",  zh:"很棒。这是给你的小费。",         tip:"little extra 给小费的委婉说法" }
       ]},
 
-    { id:"life_8", name:"银行办事", en:"At the Bank", emoji:"🏦", level:3, module:"life", img:"images/scene-life_8.png",
+    { id:"life_8", name:"银行办事", en:"At the Bank", emoji:"🏦", level:3, module:"life", img:"scene-life_8.png",
       story:"到柜台先说要开户，问清手续费；换完汇想转账，卡却被 ATM 吞了，最后挂失并预约补办。",
       sentences:[
         { role:"you", en:"Good morning. How can I help you?",            zh:"早上好，需要办什么业务？",       tip:"bank 柜台固定开场" },
@@ -1598,7 +1598,7 @@ const SCENES = [
         { role:"me",  en:"Could I report it lost and book an appointment?", zh:"能挂失并预约补办吗？",         tip:"report it lost 挂失" }
       ]},
 
-    { id:"life_9", name:"健身房", en:"At the Gym", emoji:"🏋️", level:2, module:"life", img:"images/scene-life_9.png",
+    { id:"life_9", name:"健身房", en:"At the Gym", emoji:"🏋️", level:2, module:"life", img:"scene-life_9.png",
       story:"被带看场地，问清月费后想约节私教试试；练完问器械和更衣室在哪，最后打听退卡规则。",
       sentences:[
         { role:"you", en:"Let me show you around. This is the weight area.", zh:"我带你转转。这是力量区。",   tip:"show sb around 带参观" },
@@ -1611,7 +1611,7 @@ const SCENES = [
         { role:"me",  en:"And what if I want to cancel later?",          zh:"要是以后想退卡呢？",             tip:"cancel 退订/退卡" }
       ]},
 
-    { id:"life_10", name:"公交地铁买票", en:"Bus & Subway", emoji:"🚌", level:1, module:"life", img:"images/scene-life_10.png",
+    { id:"life_10", name:"公交地铁买票", en:"Bus & Subway", emoji:"🚌", level:1, module:"life", img:"scene-life_10.png",
       story:"在售票机前不会买票，问工作人员怎么操作；问清换乘和票价，刷卡进站，最后打听末班车时间。",
       sentences:[
         { role:"me",  en:"Excuse me, how do I buy a ticket?",            zh:"打扰一下，怎么买票？",           tip:"Excuse me 开口最稳" },
@@ -1624,7 +1624,7 @@ const SCENES = [
         { role:"me",  en:"Thanks! When's the last train?",               zh:"谢谢！末班车几点？",             tip:"last train 末班车" }
       ]},
 
-    { id:"life_11", name:"账单缴费", en:"Bills & Payment", emoji:"🧾", level:3, module:"life", img:"images/scene-life_11.png",
+    { id:"life_11", name:"账单缴费", en:"Bills & Payment", emoji:"🧾", level:3, module:"life", img:"scene-life_11.png",
       story:"收到账单发现水电费涨了，打电话问清原因；争议解决后选缴费方式，还想分期、索要收据。",
       sentences:[
         { role:"you", en:"Billing support, how can I help?",             zh:"账单客服，有什么可以帮您？",     tip:"billing 账单相关" },
@@ -1637,7 +1637,7 @@ const SCENES = [
         { role:"me",  en:"And could you send me a receipt?",             zh:"能给我发个收据吗？",             tip:"receipt 的 p 不发音" }
       ]},
 
-    { id:"life_12", name:"宠物相关", en:"Pet Care", emoji:"🐶", level:2, module:"life", img:"images/scene-life_12.png",
+    { id:"life_12", name:"宠物相关", en:"Pet Care", emoji:"🐶", level:2, module:"life", img:"scene-life_12.png",
       story:"带猫咪看兽医，说清症状后问要不要打疫苗；出门旅行要寄养，最后买用品、问清总费用。",
       sentences:[
         { role:"you", en:"What seems to be the problem?",                zh:"它哪里不舒服？",                 tip:"兽医问症状的固定句" },
